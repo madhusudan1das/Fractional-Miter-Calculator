@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <button id="homeBtn">Home</button>
+        <button id="aboutBtn">About</button>
+    </nav>
+    <div class="converter">
+        <h2>Length Converter</h2>
+        <div class="convert-section">
+            <div class="input-section">
+                <input type="number" id="inputValue" placeholder="Enter value" value="1">
+                <select id="inputUnit">
+                    <option value="centimetre">Centimetre</option>
+                    <option value="kilometre">Kilometre</option>
+                    <option value="metre">Metre</option>
+                    <option value="millimetre">Millimetre</option>
+                    <option value="micrometre">Micrometre</option>
+                    <option value="nanometre">Nanometre</option>
+                    <option value="mile">Mile</option>
+                    <option value="yard">Yard</option>
+                    <option value="foot">Foot</option>
+                    <option value="inch">Inch</option>
+                    <option value="nautical-mile">Nautical mile</option>
+                </select>
+            </div>
+            <p>=</p>
+            <div class="output-section">
+                <input type="text" id="outputValue" readonly>
+                <select id="outputUnit">
+                    <option value="inch">Inch</option>
+                    <option value="kilometre">Kilometre</option>
+                    <option value="metre">Metre</option>
+                    <option value="centimetre">Centimetre</option>
+                    <option value="millimetre">Millimetre</option>
+                    <option value="micrometre">Micrometre</option>
+                    <option value="nanometre">Nanometre</option>
+                    <option value="mile">Mile</option>
+                    <option value="yard">Yard</option>
+                    <option value="foot">Foot</option>
+                    <option value="nautical-mile">Nautical mile</option>
+                </select>
+            </div>
+        </div>
+        <button id="convertBtn">Convert</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
